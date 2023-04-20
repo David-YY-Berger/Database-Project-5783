@@ -63,7 +63,7 @@ CREATE TABLE AppearsOn
   adTypeAppears VARCHAR(30) NOT NULL,
   adId INT NOT NULL,
   platformName VARCHAR(30) NOT NULL,
-  PRIMARY KEY (datePublished),
+  PRIMARY KEY (datePublished, platformType, adTypeAppears),
   FOREIGN KEY (adId) REFERENCES Advertisement(adId),
   FOREIGN KEY (platformName) REFERENCES Platform(platformName),
   UNIQUE (adId, platformName)
