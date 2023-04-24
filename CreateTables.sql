@@ -77,3 +77,4 @@ CREATE TABLE WrittenBy
   FOREIGN KEY (adId) REFERENCES Advertisement(adId),
   FOREIGN KEY (writerId) REFERENCES Writer(writerId)
 );
+ 
