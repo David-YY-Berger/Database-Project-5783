@@ -2,7 +2,7 @@ CREATE TABLE Advertisement
 (
   adId INT NOT NULL,
   hoursToWrite INT NOT NULL,
-  adName VARCHAR(30) NOT NULL,
+  adName VARCHAR(40) NOT NULL,
   PRIMARY KEY (adId)
 );
 
@@ -31,7 +31,7 @@ CREATE TABLE Platform
 
 CREATE TABLE Website
 (
-  url VARCHAR(40) NOT NULL,
+  url VARCHAR(100) NOT NULL,
   numViewersDaily INT NOT NULL,
   platformName VARCHAR(30) NOT NULL,
   PRIMARY KEY (platformName),
@@ -59,23 +59,21 @@ CREATE TABLE AppearsOn
 (
   datePublished DATE NOT NULL,
   priceToPayPlatform INT NOT NULL,
-  platformType VARCHAR(30) NOT NULL,
-  adTypeAppears VARCHAR(30) NOT NULL,
+  platformType VARCHAR(20) NOT NULL,
+  adTypeAppears VARCHAR(20) NOT NULL,
   adId INT NOT NULL,
   platformName VARCHAR(30) NOT NULL,
-  PRIMARY KEY (datePublished, platformType, adTypeAppears),
+  PRIMARY KEY (datePublished, platformType, adTypeAppears, adId, platformName),
   FOREIGN KEY (adId) REFERENCES Advertisement(adId),
-  FOREIGN KEY (platformName) REFERENCES Platform(platformName),
-  UNIQUE (adId, platformName)
+  FOREIGN KEY (platformName) REFERENCES Platform(platformName)
 );
 
 CREATE TABLE WrittenBy
 (
-  adTypeWritten VARCHAR(30) NOT NULL,
+  adTypeWritten VARCHAR(20) NOT NULL,
   adId INT NOT NULL,
   writerId INT NOT NULL,
-  PRIMARY KEY (adTypeWritten),
+  PRIMARY KEY (adTypeWritten, adId, writerId),
   FOREIGN KEY (adId) REFERENCES Advertisement(adId),
-  FOREIGN KEY (writerId) REFERENCES Writer(writerId),
-  UNIQUE (adId, writerId)
+  FOREIGN KEY (writerId) REFERENCES Writer(writerId)
 );
