@@ -34,6 +34,6 @@ Master=
 Name=ADID
 Type=NUMBER
 Size=
-Data=Sequence(1, 1, 99)
+Data=Sequence(1, 1, 100)
 Master=
 
