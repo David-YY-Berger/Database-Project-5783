@@ -27,7 +27,7 @@ Master=
 Name=ADID
 Type=NUMBER
 Size=
-Data=Random(50, 150)
+Data=Random(1, 200)
 Master=
 
 [Record]
