@@ -20,7 +20,7 @@ Count=200
 Name=ADID
 Type=NUMBER
 Size=
-Data=Sequence(1, 1, 600)
+Data=Sequence(1, 1, 200)
 Master=
 
 [Record]
