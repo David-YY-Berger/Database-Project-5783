@@ -41,7 +41,7 @@ Master=
 Name=ADTYPEAPPEARS
 Type=VARCHAR2
 Size=30
-Data=List('ArticleType')
+Data=List('ArticleType', 'PictureType')
 Master=
 
 [Record]
