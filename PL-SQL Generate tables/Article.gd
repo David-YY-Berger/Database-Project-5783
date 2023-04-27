@@ -20,13 +20,13 @@ Count=100
 Name=NUMWORDS
 Type=NUMBER
 Size=
-Data=Random(500, 100)
+Data=Random(100, 500)
 Master=
 
 [Record]
 Name=ADID
 Type=NUMBER
 Size=
-Data=Sequence(100, 1, 600)
+Data=Sequence(101, 1, 200)
 Master=
 
