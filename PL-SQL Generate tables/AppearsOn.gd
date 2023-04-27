@@ -55,6 +55,6 @@ Master=
 Name=PLATFORMNAME
 Type=VARCHAR2
 Size=30
-Data=List('Besheva', 'Yated_neeman', 'Yediot_acharonot')
+Data=List('Besheva', 'Yated_neeman', 'Israel_Hayom', 'Mishpacha', 'Yediot_acharonot')
 Master=
 
