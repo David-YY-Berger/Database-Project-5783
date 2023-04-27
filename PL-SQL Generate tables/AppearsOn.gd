@@ -14,7 +14,7 @@ InitScript=
 [Table]
 Owner=SYSTEM
 Name=APPEARSON
-Count=100
+Count=200
 
 [Record]
 Name=DATEPUBLISHED
@@ -48,7 +48,7 @@ Master=
 Name=ADID
 Type=NUMBER
 Size=
-Data=Random(150, 200)
+Data=Random(1, 200)
 Master=
 
 [Record]
