@@ -1,0 +1,3 @@
+select WRITERNAME, NUMYEARSOFEXPERIENCE, NUMYEARSOFEXPERIENCE/PAYPERHOUR as Raiting
+from Writer
+order by Raiting desc
