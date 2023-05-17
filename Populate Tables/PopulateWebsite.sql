@@ -2,7 +2,7 @@ insert into SYSTEM.WEBSITE (URL, NUMVIEWERSDAILY, PLATFORMNAME)
 values ('www.Besheva.com', 435, 'Besheva');
 
 insert into SYSTEM.WEBSITE (URL, NUMVIEWERSDAILY, PLATFORMNAME)
-values ('www.Israel_Hayom.com', 727, 'Israel_Hayom');
+values ('www.Yisrael_hayom.com', 727, 'Yisrael_hayom');
 
 insert into SYSTEM.WEBSITE (URL, NUMVIEWERSDAILY, PLATFORMNAME)
 values ('www.Yediot_acharonot.com', 512, 'Yediot_acharonot');
