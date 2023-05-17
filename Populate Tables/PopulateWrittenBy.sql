@@ -548,9 +548,6 @@ insert into SYSTEM.WRITTENBY (ADTYPEWRITTEN, ADID, WRITERID)
 values ('ArticleType', 91, 42);
 
 insert into SYSTEM.WRITTENBY (ADTYPEWRITTEN, ADID, WRITERID)
-values ('ArticleType', 145, 41);
-
-insert into SYSTEM.WRITTENBY (ADTYPEWRITTEN, ADID, WRITERID)
 values ('ArticleType', 60, 59);
 
 insert into SYSTEM.WRITTENBY (ADTYPEWRITTEN, ADID, WRITERID)
@@ -677,9 +674,6 @@ insert into SYSTEM.WRITTENBY (ADTYPEWRITTEN, ADID, WRITERID)
 values ('ArticleType', 69, 20);
 
 insert into SYSTEM.WRITTENBY (ADTYPEWRITTEN, ADID, WRITERID)
-values ('ArticleType', 65, 17);
-
-insert into SYSTEM.WRITTENBY (ADTYPEWRITTEN, ADID, WRITERID)
 values ('PictureType', 96, 33);
 
 insert into SYSTEM.WRITTENBY (ADTYPEWRITTEN, ADID, WRITERID)
@@ -783,9 +777,6 @@ insert into SYSTEM.WRITTENBY (ADTYPEWRITTEN, ADID, WRITERID)
 values ('ArticleType', 165, 7);
 
 insert into SYSTEM.WRITTENBY (ADTYPEWRITTEN, ADID, WRITERID)
-values ('ArticleType', 184, 79);
-
-insert into SYSTEM.WRITTENBY (ADTYPEWRITTEN, ADID, WRITERID)
 values ('ArticleType', 196, 61);
 
 insert into SYSTEM.WRITTENBY (ADTYPEWRITTEN, ADID, WRITERID)
@@ -817,9 +808,6 @@ values ('ArticleType', 182, 88);
 
 insert into SYSTEM.WRITTENBY (ADTYPEWRITTEN, ADID, WRITERID)
 values ('ArticleType', 199, 92);
-
-insert into SYSTEM.WRITTENBY (ADTYPEWRITTEN, ADID, WRITERID)
-values ('ArticleType', 165, 7);
 
 insert into SYSTEM.WRITTENBY (ADTYPEWRITTEN, ADID, WRITERID)
 values ('ArticleType', 165, 58);
