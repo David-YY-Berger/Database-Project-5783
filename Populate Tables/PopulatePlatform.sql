@@ -1,7 +1,7 @@
 -- insert every one..
 
 insert into SYSTEM.PLATFORM (PLATFORMNAME)
-values ('Israel_Hayom');
+values ('Yisrael_hayom');
 
 insert into SYSTEM.PLATFORM (PLATFORMNAME)
 values ('Yediot_acharonot');
