@@ -1,12 +1,22 @@
--- only run the "create view" statement once! or drop view...
-create view platANDapp as
-select PLATFORMNAME, adtypeappears, platformType, count(*) as totalAppearances, avg (AP.PRICETOPAYPLATFORM) as AvgPricePerAd
-from platform P natural join Appearson AP
-group by Adtypeappears, platformType, platformName
-order by AvgPricePerAd desc, totalAppearances desc;
+-- drop view platANDapp;
 
-select platANDapp.PLATFORMNAME, platANDapp.adtypeappears, platANDapp.totalAppearances, cast(n.numcopiesprinted /platANDapp.AvgPricePerAd as decimal(10,2)) as CopyPerShekel   , platANDapp.AvgPricePerAd, n.numcopiesprinted
-from platANDapp, newspaper n
-where platANDapp.PLATFORMNAME = n.platformname 
-and ( platANDapp.platformType = 'NewspaperType')
-order by CopyPerShekel desc
+CREATE VIEW platANDapp AS
+SELECT
+    PLATFORMNAME, adtypeappears, platformType, COUNT(*) AS totalAppearances, AVG(AP.PRICETOPAYPLATFORM) AS AvgPricePerAd
+FROM
+    platform P NATURAL JOIN Appearson AP
+GROUP BY
+    adtypeappears, platformType, platformName
+ORDER BY
+    AvgPricePerAd DESC, totalAppearances DESC;
+
+SELECT
+    platANDapp.PLATFORMNAME, platANDapp.adtypeappears, platANDapp.totalAppearances,
+    CAST(n.numcopiesprinted / platANDapp.AvgPricePerAd AS DECIMAL(10,2)) AS CopyPerShekel,
+    platANDapp.AvgPricePerAd, n.numcopiesprinted
+FROM
+    platANDapp, newspaper n
+WHERE
+    platANDapp.PLATFORMNAME = n.platformname AND (platANDapp.platformType = 'NewspaperType')
+ORDER BY
+    CopyPerShekel DESC;
