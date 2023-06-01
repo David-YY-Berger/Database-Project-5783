@@ -5,4 +5,4 @@ from (select w.writername, w.writerid, count(*) as numAds
       where w.writerid = wb.writerid
       group by w.writerid, w.writername
       )
-where numAds > &numberOfAdds
+where numAds > '&numberOfAdds'
