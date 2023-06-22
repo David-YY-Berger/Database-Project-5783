@@ -13,7 +13,11 @@ Database project at Lev Academic Institute
 
 ## Presenting Data with Graphs:
 
+![image](https://github.com/David-YY-Berger/Database-Project-5783/assets/91850832/9a3f544f-6762-421d-98a2-1a1223166f18)
 
+![image](https://github.com/David-YY-Berger/Database-Project-5783/assets/91850832/d20b0dad-aba6-4ad5-b1ad-841a18dedc96)
+
+## Basic GUI (java swing):
 
 
 
