@@ -1,6 +1,9 @@
 # Database-Project-5783
 Database project at Lev Academic Institute
 
+In this small project, we designed our own database, wrote SQL Queries and PL/SQL functions to populate and retrieve sophistocated information, and developed a java-based GUI to access the database. 
+See the Full Report document for more details and screenshots.
+
 ## Design Diagrams:
 ![image](https://user-images.githubusercontent.com/91850832/233992603-5e7988d5-d7dc-4dc6-933e-0759325933a8.png)
 
