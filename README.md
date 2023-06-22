@@ -1,4 +1,5 @@
 # Database-Project-5783
+### Developed by David Berger and Ariel Zukerman
 Database project at Lev Academic Institute
 
 In this small project, we designed our own database, wrote SQL Queries and PL/SQL functions to populate and retrieve sophistocated information, and developed a java-based GUI to access the database. 
