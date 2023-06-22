@@ -19,5 +19,12 @@ Database project at Lev Academic Institute
 
 ## Basic GUI (java swing):
 
+![image](https://github.com/David-YY-Berger/Database-Project-5783/assets/91850832/588583de-0c3a-4d74-8745-bd80ad93f22b)
+
+![image](https://github.com/David-YY-Berger/Database-Project-5783/assets/91850832/2926c03e-f3a7-4a2f-bcc6-87285e177bb9)
+
+![image](https://github.com/David-YY-Berger/Database-Project-5783/assets/91850832/ccfbe330-d491-45ba-8543-743bbc797612)
+
+
 
 
